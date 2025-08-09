@@ -1,0 +1,59 @@
+:root{
+  --brand: #0d6efd; /* azul bootstrap base */
+  --card-radius: 1rem;
+}
+
+body {
+  background: #f7f8fa;
+}
+
+header {
+  background: linear-gradient(90deg, #111, #222);
+}
+
+/* Tarjeta personalizada */
+.card.recipe {
+  border: none;
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  transition: transform .15s ease, box-shadow .15s ease;
+  background: #fff;
+}
+
+.card.recipe:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0,0,0,.12);
+}
+
+.card .badge {
+  font-weight: 600;
+}
+
+.card-img-top {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.card-title {
+  min-height: 2.5rem;
+}
+
+.card-text {
+  color: #444;
+}
+
+/* Botón ver más (solo estilo) */
+.btn-outline-brand {
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+.btn-outline-brand:hover {
+  background: var(--brand);
+  color: #fff;
+}
+
+/* Estados */
+#status-message {
+  font-size: 1.05rem;
+}
