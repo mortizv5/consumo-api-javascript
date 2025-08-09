@@ -2,7 +2,7 @@
 
 Proyecto para la clase de **Desarrollo Web**.  
 **Marvin Steven Ortiz Valle -> 5190-22-6064**.  
-Este ejemplo consume la API pública [TheMealDB](https://rapidapi.com/themealdb/api/themealdb) usando JavaScript puro (`fetch`), muestra los resultados en tarjetas de **Bootstrap 5** y aplica estilos personalizados.
+Este ejemplo consume la API pública TheMealDB usando JavaScript puro (`fetch`), muestra los resultados en tarjetas de **Bootstrap 5** y aplica estilos personalizados.
 
 ## Características
 - **Bootstrap 5** (CSS y JS local).
