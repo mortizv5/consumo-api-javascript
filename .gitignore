@@ -1,0 +1,13 @@
+# Evitar subir API keys reales
+script.js
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Node.js (si llegas a usarlo en el futuro)
+node_modules/
